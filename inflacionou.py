@@ -1,9 +1,13 @@
-
 tomateSemanaAnterior = float(input('Quanto você pagou pelo tomate na semana passada?'))
 tomateSemanaAtual = float(input('Quanto você pagou pelo tomate na semana atual?'))
 alimentos = 'tomate', 'laranja', 'abacaxi', 'limao'
 
+#alimentos indisponiveis
 
+alimentos = input('Qual alimento você quer comprar?')
+if (alimentos):
+    print('Alimento indisponivel na feira!')
+#alimentos indisponiveis
 
 
 
