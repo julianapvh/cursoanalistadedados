@@ -19,9 +19,30 @@ while(mesagem != 'sair'):
 #----------or ----or-------or ----or--------or ----or--------=======-or ----or----=======-or ----or----========================================================
 
 
-dia = 'terça'
+    dia = 'terça'
 
-while(dia == 'terça' or dia == 'quarta'):
-    print('Você precisa escolher um dia diferente de terça ou quarta para sair do loop')
-    dia = input('Que dia é hoje? ')
-                print('Obrigada!!!')
+    while(dia == 'terça' or dia == 'quarta'):
+        print('Você precisa escolher um dia diferente de terça ou quarta para sair do loop')
+        dia = input('Que dia é hoje? ')
+                    print('Obrigada!!!')
+                
+#===================================================================================================================================================
+
+    sabor_pizza = 'marguerita'
+    dia = 'quarta'
+    if((sabor_pizza == 'marguerita' and (dia == 'quarta' or dia == 'sabado')):
+        print('[PROMO]: Pizza em dobro')
+        print('Começando a preparar as Duas Pizzas de marguerita')
+    
+#==============================================================================================================================
+    
+    saborPizza = 'quatro queijos'
+    dia = 'sabado'
+    if ((saborPizza == 'marguerita' or saborPizza == 'quatro queijos')
+        and
+        (dia == 'quarta' or dia == 'sabado')):
+        print('[PROMO]: Pizza em dobro')
+        print('Começando a preparar as Duas Pizzas de ', saborPizza)
+        
+#========================================================================================================================================
+            
