@@ -4,7 +4,9 @@ Classificação: Iniciante
 
 O que é para fazer:
 
-Um lojista comorou diversos produtos para sua loja e deseja revendê-lo com margem de lucro diferente dependendo do valor; por exemplo, ele deseja obter lucro de 45% caso o produto custe menos que R$ 20,00. Porém, caso o produto custe mais que isso, o lucro deve ser de 30%. Escreva um programa em Python que ajude esse lojista.
+Um lojista comprou diversos produtos para sua loja e deseja revendê-lo com margem de lucro diferente dependendo do valor; por exemplo, 
+ele deseja obter lucro de 45% caso o produto custe menos que R$ 20,00. Porém, caso o produto custe mais que isso, o lucro deve ser de 30%. 
+Escreva um programa em Python que ajude esse lojista.
 
 Como Fazer:
 
@@ -14,27 +16,24 @@ Dentro da condição, realize o cálculo necessário.
 Imprima as informações para o usuário.
 """
 
-
-
-
-
-
-
 valorProduto = float(input('Digite o valor do produto: '))
 
-margemLucro = (valorProduto / 45.0)
-margemLucro2 = (valorProduto / 30.0)
 
-lucro = margemLucro * valorProduto
-total = lucro + valorProduto
-
-
-
-
-
-
-
-print(valorProduto)
-print(margemLucro)
-print(lucro)
-print(total)
+if valorProduto < 20:
+    lucro = valorProduto
+    print(f"O produto custa menos que 20,00 e sua margem de lucro vai ser de 45%")
+    margem_de_lucro = valorProduto / 100.0 * 4.5
+    print(f'Seu lucro é de {margem_de_lucro}')
+    
+    
+if valorProduto == 20:
+    lucro = valorProduto
+    print(f"O produto custa 20,00 e sua margem de lucro vai ser de 45%")
+    margem_de_lucro = valorProduto / 100.0 * 4.5
+    print(f'Seu lucro é de {margem_de_lucro}')
+    
+elif valorProduto > 20:
+    lucro = valorProduto
+    print(f"O produto custa mais que 20,00 e sua margem de lucro vai ser de 30%")
+    margem_de_lucro = valorProduto / 100.0 * 3.0
+    print(f'Seu lucro é de {margem_de_lucro}')
