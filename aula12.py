@@ -31,10 +31,22 @@ def dirigirOuBeber(idade):
  
 dirigirOuBeber(idadeUsuario)"""
 
-quantidade_km = int(input('Digite a quantidade de kilometros'))
-tamanho_tanque = int(input('Digite o tamanho do seu tanque'))
+
 
 def previsaoRodagem(quantidade, tanque):
+    resultado = (quantidade * tanque)
+    
+    
+quantidade = float(input('Digite a quantidade de kilometros: '))
+tanque = float(input('Digite o tamanho do seu tanque: '))
+
+
+ 
+ 
+ 
+ 
+
+    
     
 
 
