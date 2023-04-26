@@ -45,12 +45,12 @@ calculaDobroDaSoma(2,3)'''
     
 #============================exemplo do professor ==================================================================
     
-'''def fatorial(numero):
+def fatorial(numero):
     if numero == 1:
         return 1
     return numero * fatorial(numero - 1)
 
-print(fatorial(3))'''
+print(fatorial(3))
 
 
 
