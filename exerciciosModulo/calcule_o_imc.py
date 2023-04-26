@@ -25,6 +25,8 @@ for i in range(quantidade_pacientes):
     imc = peso_paciente / (altura_paciente * altura_paciente)
     
     
+        
+    
     print('\nNome do(a) paciente: ', nome_paciente)
     print('\naltura do(a) paciente: ', altura_paciente, 'm')
     print('\nPeso do(a) paciente: ', peso_paciente, 'kg: ')
