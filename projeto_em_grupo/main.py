@@ -188,7 +188,7 @@ while True:
 
     if opcoes == '6':
         sair = print(f'Obrigado por usar nosso atendimento {nome}, volte sempre!')
-        break
+        breakoo
 
   
 
