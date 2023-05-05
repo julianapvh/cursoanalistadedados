@@ -14,3 +14,15 @@ Dentro das verificações, crie a variável que vai armazenar o cálculo do desc
 Imprima o valor do desconto para o usuário.'''
 
 
+salario = float(input("Digite o seu valor do seu salário: "))
+
+if salario <= 600:
+    desconto = 0
+elif salario <= 1200:
+    desconto = salario * 0.2
+elif salario <= 2000:
+    desconto = salario * 0.25
+else:
+    desconto = salario * 0.3
+
+print("O desconto do INSS é de R$ {:.2f}".format(desconto))
