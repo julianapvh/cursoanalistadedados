@@ -11,6 +11,7 @@ def busca_candidatos(candidatos, minimo_entrevista, minimo_teste_teorico, minimo
     return candidatos_encontrados
 
 # Lista de com dados de entrevista com candidatos
+
 candidatos = [
     {'Candidato': 1, 'entrevista': 5, 'teste teórico': 10, 'teste prático': 8, 'soft skills': 8},
     {'Candidato': 2, 'entrevista': 10, 'teste teórico': 7, 'teste prático': 7, 'soft skills': 8},
@@ -20,15 +21,18 @@ candidatos = [
 ]
 
 # Entrada do usuário, o usuário vai digitar a quantidade minima de nota que ele quer
+
 minimo_entrevista = int(input("Digite a nota mínima para a entrevista: "))
 minimo_teste_teorico = int(input("Digite a nota mínima para o teste teórico: "))
 minimo_teste_pratico = int(input("Digite a nota mínima para o teste prático: "))
 minimo_soft_skills = int(input("Digite a nota mínima para a avaliação de soft skills: "))
 
 # Busca por candidatos que satisfazem os requisitos
+
 candidatos_encontrados = busca_candidatos(candidatos, minimo_entrevista, minimo_teste_teorico, minimo_teste_pratico, minimo_soft_skills)
 
 # Exibição dos candidatos encontrados
+
 if len(candidatos_encontrados) > 0:
     print('Candidatos encontrados na busca:', candidatos_encontrados)
 else:
