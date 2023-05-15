@@ -24,7 +24,7 @@ print(fila)'''
 # pilha
 
 
-def empilha(pilha, elemento):
+'''def empilha(pilha, elemento):
     return pilha.append(elemento)
     
 def desempilhar(pilha):
@@ -40,7 +40,11 @@ print(pilha)
 
 desempilhar(pilha)
    
-print(pilha)
+print(pilha)'''
+
+
+lista = ['joão', 'luciana']
+print(lista[-1])
 
 
 
