@@ -1,5 +1,5 @@
 ## Exercícios e Projetos do Curso
-![Banner](cursoanalistadedados/img.jpg
+![Banner](cursoanalistadedados/img.jpg)
 
 # Resilia Educação - Data Analytics
 
