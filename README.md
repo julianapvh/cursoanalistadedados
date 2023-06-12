@@ -1,5 +1,6 @@
-## Exercícios e Projetos do Curso
-![Banner](cursoanalistadedados/img.jpg)
+![Banner](img.jpg)
+
+:rocket: Este projeto é incrível!
 
 # Resilia Educação - Data Analytics
 
