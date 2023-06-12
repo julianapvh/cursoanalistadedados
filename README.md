@@ -1,4 +1,3 @@
-# Resilia Educação - Data Analytics
 ## Exercícios e Projetos do Curso
 
 
