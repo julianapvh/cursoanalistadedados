@@ -16,7 +16,7 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 - Aplicação de estatística descritiva para análise e interpretação de dados.
 
 ## Tecnologias Utilizadas
-
+![Banner](img2.png)
 - Python
 - SQL
 - Power BI
@@ -49,3 +49,4 @@ Este projeto foi realizado individualmente como parte do curso de Data Analytics
 ## Status do Projeto
 
 Este projeto está em andamento e está sendo constantemente atualizado com novos exercícios e projetos.
+
